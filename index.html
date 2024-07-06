@@ -8,16 +8,16 @@
     <div>
         <h1>Expense Tracker</h1>
         <form id="expense-form">
-            <input type="text" id="description" placeholder="Description" required />
-            <input type="number" id="amount" placeholder="Amount" required />
+            <input type="text" id="description" placeholder="Description" required>
+            <input type="number" id="amount" placeholder="Amount" required>
             <select id="type" required>
                 <option value="Income">Income</option>
                 <option value="Expense">Expense</option>
             </select>
-            <button type="submit">Add</button>
+            <button type="submit">Add Expense</button>
         </form>
+        <canvas id="expense-chart"></canvas>
         <ul id="expense-list"></ul>
-        <canvas id="expense-chart" width="300" height="300"></canvas>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="./index.js"></script>
